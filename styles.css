@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.control-body {
+    margin-top: 50px;
+    margin: 0 auto;
+    width: 290px;
+    height: 490px;
+    background-image: url(./img/63290040-black-abstract-background-with-transparent-squares-vector-illustration.jpg);
+}
+.up-menu {
+    width: 100%;
+    height: 40px;
+    background-color: beige;
+    opacity: 0.4;
+}
+.control-image {
+    height: 30px;
+    width: 30px;
+    margin: 1px;
+}
+.control-image:nth-child(2n) {
+    margin-left: 220px;
+}
+.main-img {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 65px;
+    text-align: center;
+    margin-top: 10px;
+}
+.title-text {
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    letter-spacing: 3px;
+}
+.money-img {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.moskal {
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    color:gray;
+    letter-spacing: 1px;
+    text-decoration: line-through;
+}
+.gg {
+    margin-top: 30px;
+    width: 177px;
+    height: 2px;
+}
+
