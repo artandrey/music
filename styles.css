@@ -54,5 +54,40 @@
     margin-top: 30px;
     width: 177px;
     height: 2px;
+    display: block;
+    margin-bottom: 40px;
 }
 
+
+.back {
+    
+}
+.play-pause {
+background-image: url(./img/pause.png);
+
+}
+.play-pause:hover {
+    background-image: url(./img/pause\ light.png);
+}
+.play-pause:focus-within{
+    background-image: url(./img/play\ right.png);
+}
+.play-pause:focus-within:hover{
+    background-image: url(./img/play\ light\ right.png);
+}
+
+.next {
+
+}
+
+.control-btn {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+    text-shadow: transparent;
+    font-size: 0;
+    outline-color: transparent;
+}
